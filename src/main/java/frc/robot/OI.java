@@ -63,6 +63,6 @@ public class OI {
     new JoystickButton(joystick, 2).toggleWhenPressed(new clamp());
 
     //prep for climb (3)
-    new JoystickButton(joystick,3).whileHeld(new climb(-0.10));
+    new JoystickButton(joystick,3).whileHeld(new climb(-1.00));
   }
 }
